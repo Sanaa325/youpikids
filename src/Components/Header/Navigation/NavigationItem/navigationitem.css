@@ -1,0 +1,43 @@
+.NavigationItem {
+    margin: 20px;
+}
+.NavigationItem a {
+    text-decoration: none;
+    color: #0171D2;
+    font-family: "Porky's", sans-serif;
+    letter-spacing: 1.5px;  
+    font-size: 24px;
+}
+.NavigationItem a:hover {
+    
+    color: #FFAC00;
+}
+
+.NavigationItem a:active{
+    text-decoration: none;
+}
+
+
+/*Version Tablette */
+
+@media screen and (max-width: 768px) {
+.NavigationItem a {
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 80%;
+    }
+}
+
+/* Version mobiles */
+
+@media screen and (max-width: 420px) {
+    .NavigationItem a {
+            font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 80%;
+        }
+    }

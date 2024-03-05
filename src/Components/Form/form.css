@@ -1,0 +1,227 @@
+.formulaire-container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    padding-inline: 100px;
+    padding-block: 100px;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.follow-us {
+    text-align: center;
+}
+
+/* Styles pour les icônes de réseaux sociaux  */
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.social-icons img {
+    width: auto;
+    height: 39px;
+    margin-right: 10px;
+}
+
+.logo-left {
+
+    width: 200px;
+    height: auto;
+}
+
+.form-container {
+    flex: 1;
+
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Mettre les éléments en colonne */
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: flex-start;
+}
+
+form input {
+    width: 100%;
+    background-color: transparent;
+    border: solid 1px;
+    height: 2.5em;
+    margin-bottom: 20px;
+    border-top: 1px #000;
+    border-bottom: 1px solid #f2f3f5;
+    border-left: 1px solid #f2f3f5;
+    border-right: 1px #000;
+    color: #595c66;
+    min-height: 55px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.msg {
+
+    background-color: transparent;
+    border: solid 1px;
+    margin-bottom: 20px;
+    border-top: 1px #000;
+    border-bottom: 1px solid #f2f3f5;
+    border-left: 1px solid #f2f3f5;
+    border-right: 1px #000;
+    min-height: 55px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #595c66;
+}
+
+form label {
+    color: transparent;
+}
+
+
+form textarea {
+    width: 100%;
+    background-color: transparent;
+    border: solid 1px;
+    height: 5em;
+    line-height: 2.5em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+
+.custom-button {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FD2B67;
+    border: #FD2B67 solid;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: .5em 1em;
+    width: 30%;
+    margin-top: 70px;
+
+}
+
+/* Ajoutez ces styles pour l'effet de survol */
+input[type='text']:hover,
+input[type='email']:hover,
+textarea:hover {
+    border-bottom: 2px solid #FD2B67;
+    /* Bordure basse au survol */
+    transition: border-bottom 0.3s ease-in-out;
+    /* Animation fluide */
+}
+
+/* Pour annuler la bordure basse lorsque le champ est actif */
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+    border-bottom: 1px solid #f2f3f5;
+    /* Rétablir la bordure par défaut */
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+form textarea:focus {
+    border-bottom: #FD2B67 solid 1px;
+    outline: none;
+
+}
+
+/* Pour tous les champs de formulaire */
+input[type="text"],
+input[type="email"],
+textarea {
+    /* Votre style pour le champ de texte renseigné */
+    padding: 20px;
+}
+
+/* Pour les placeholders dans les champs */
+::placeholder {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+}
+
+/* Pour les navigateurs Webkit */
+::-webkit-input-placeholder {
+    /* Style du placeholder pour Webkit */
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+}
+
+/* Pour les navigateurs Firefox */
+::-moz-placeholder {
+    /* Style du placeholder pour Firefox */
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+}
+
+/* Pour Internet Explorer */
+:-ms-input-placeholder {
+    /* Style du placeholder pour Internet Explorer */
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+}
+
+.form-title {
+    padding-top: 30px;
+    font-family: 'Porky\'s';
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #FD2B67;
+    margin: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-button {
+        width: 60%;
+    }
+
+    .logo-left {
+
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .formulaire-container {
+        padding-inline: 0px;
+        padding-block: 0px;
+        display: block;
+        padding-top: 40px;
+    }
+}

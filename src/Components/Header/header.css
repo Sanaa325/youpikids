@@ -1,0 +1,28 @@
+.Header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}   
+.logo {
+    width: 150px;
+    height: auto;
+    
+}
+
+/*Version Tablette */
+
+@media screen and (max-width: 768px) {
+    .logo {
+            width: 60px;
+        }
+    }
+    
+    /* Version mobiles */
+    
+    @media screen and (max-width: 420px) {
+        .logo {
+            width: 60px;
+        }
+        }

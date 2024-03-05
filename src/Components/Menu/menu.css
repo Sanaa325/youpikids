@@ -1,0 +1,76 @@
+/* menu.css */
+.MenuContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.MenuButton {
+  padding: 8px 16px;
+  font-size: 20px;
+  border: 1px solid #fff;
+  background-color: #fff; /* Fond blanc par défaut */
+  cursor: pointer;
+  transition: all 0.5s ease; /* Animation de transition */
+  border-radius: 6px;
+}
+
+.MenuButton button {
+  text-decoration: none;
+  color: black; 
+  font-family: 'raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+
+.MenuButton.active {
+  background-color: #FFAC00; /* Fond rouge pour l'élément actif */
+  color: #fff; 
+  border: 1px solid #FFAC00;
+  font-weight: 600;
+}
+.slick-dots {
+  background-color: #FFEDC7;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .MenuButton button{
+  font-size: 14px;
+}
+.MenuContainer {
+  
+  padding-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .MenuButton button{
+  font-size: 11px;
+}
+.MenuButton {
+  padding: 0;
+}
+
+.Menu{
+  gap: 12px;
+}
+
+
+
+
+}

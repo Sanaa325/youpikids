@@ -1,0 +1,24 @@
+.VideoBanner {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+    overflow: hidden;
+  }
+  
+  .VideoBanner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .VideoBanner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    font-size: 24px; 
+    text-align: center;
+    
+  }
+  

@@ -1,0 +1,84 @@
+.Navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Ajoutez ces styles pour le menu déroulant */
+.mobile-menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.MobileNavigation {
+    list-style: none;
+    padding: 0;
+    background-color: #fff;
+    /* Couleur de fond pour contraster */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* 100% de la hauteur de la vue */
+    margin: 0;
+    /* Supprimez toute marge par défaut */
+    overflow: hidden;
+    /* Masquez le contenu dépassant de la vue */
+    display: none;
+    /* Masquez initialement le menu */
+    z-index: 1000; /* Valeur élevée pour s'assurer que le menu est au-dessus d'autres éléments */
+}
+
+.MobileNavigation.active {
+    display: block;
+    /* Affichez le menu lorsque la classe active est présente */
+}
+
+.fermer-menu{
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 425px) {
+    .NavigationItem {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .MobileNavigation {
+        text-align: center;
+    }
+
+    .MobileNavigation li {
+        margin: 10px 0;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-family: Raleway;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+    }
+
+    .MobileNavigation a {
+        text-decoration: none;
+        color: #0171D2;
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+    }
+
+    .MobileNavigation.active {
+        display: block !important;
+    }
+}
