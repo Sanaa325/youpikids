@@ -1,0 +1,72 @@
+.option-card {
+    background-color: #E2F3F9;
+    margin-inline: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+hr {
+    margin: 2% 0;
+    color: black;
+}
+
+.text-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.birthday-bannerTitle {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin-top: -360px;
+    width: 100%;
+  
+  
+  }
+  
+.birthday-bannerTitle h1 {
+    color: white;
+    font-family: 'Porky\'s';
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-shadow: 0px 3px 6px #0000004D;
+  
+  }
+  
+@media screen and (max-width: 768px) {
+    
+  
+    .birthday-bannerTitle h1 {
+        font-size: 20px;
+      }
+  
+   
+      
+    
+  }
+  @media screen and (max-width: 425px) {
+    
+  
+    .birth-page {
+        width: fit-content;
+      }
+  
+      .birthday-bannerTitle  {
+        font-size: 16px;
+        margin-top: -185px;
+    
+      }
+      .text-position{
+        font-size: 11px;
+    }
+    
+      
+    
+  }

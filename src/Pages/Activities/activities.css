@@ -1,0 +1,53 @@
+.image-sombre {
+  filter: brightness(1.06);
+  /* Vous pouvez ajuster le pourcentage selon vos besoins */
+}
+
+.activity-bannerTitle {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  margin-top: -360px;
+  width: 100%;
+
+
+}
+
+.activity-bannerTitle h1 {
+  color: white;
+  font-family: 'Porky\'s';
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-shadow: 0px 3px 6px #0000004D;
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .activity-bannerTitle h1 {
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .Activity-page {
+    width: fit-content;
+  }
+
+  .activity-bannerTitle  {
+    font-size: 16px;
+    margin-top: -185px;
+
+  }
+
+  
+
+
+}

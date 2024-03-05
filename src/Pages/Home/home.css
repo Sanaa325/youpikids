@@ -1,0 +1,208 @@
+.Home {
+  margin: 0;
+}
+
+.home-bannerTitle {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  margin-top: -360px;
+  width: 100%;
+
+
+}
+
+.home-bannerTitle h1 {
+  color: white;
+  font-family: 'Porky\'s';
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-shadow: 0px 3px 6px #0000004D;
+
+}
+
+.home-bannerTitle p {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Raleway";
+  margin: 0;
+  letter-spacing: -0.6px;
+  text-shadow: 0px 3px 6px #00000080;
+  opacity: 1
+}
+
+.activites-intro {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Raleway";
+}
+
+.prices-section {
+  display: flex;
+  flex-direction: column;
+  background: #E2F3F9;
+  position: relative;
+
+  padding: 10px;
+}
+
+.prices-section h2 {
+  font-family: 'Porky\'s';
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #0171D2;
+  margin: 0 10px 10px 0;
+}
+
+.prices-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.price-item {
+  flex: 0 0 calc(33.33% - 20px);
+  /* Environ un tiers moins l'espace entre les éléments */
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 18px;
+  color: #0171D2;
+}
+
+.price-item h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.price-item p {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.price-item span {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.reglement {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centrer verticalement le contenu */
+  position: relative;
+  padding-top: 20px;
+  justify-content: center;
+  background: white;
+
+}
+
+.reglement h2 {
+  margin-bottom: 30px;
+  /* Espace sous le titre */
+  font-family: 'Porky\'s';
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #FF8B05;
+  margin: 0 10px 10px 0;
+}
+
+.reglement ul {
+  list-style: none;
+  /* Pour supprimer les puces par défaut */
+  padding-left: 20px;
+  /* Ajoute un espace pour les puces */
+  text-align: justify;
+  padding-left: 200px;
+}
+
+.soleil {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  /* Positionner en haut */
+  left: -15px;
+  /* Ajuster la position gauche */
+}
+
+.section-blue {
+  background-color: #E2F3F9;
+  height: 90px;
+  margin-top: 40px;
+}
+
+.reglement li {
+  margin-bottom: 15px;
+
+}
+
+.reglement ul li:before {
+  content: "\2022";
+  /* Code Unicode pour le caractère puce */
+  color: #FF8B05;
+  /* Couleur des puces */
+  display: inline-block;
+  width: 2em;
+  font-size: 20px;
+  margin-left: -1em;
+  /* Pour aligner les puces correctement */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .soleil {
+    width: 160px;
+  }
+
+  .home-bannerTitle h1 {
+    font-size: 40px;
+  }
+
+  .home-bannerTitle p {
+    font-size: 20px;
+
+  }
+
+ .home-bannerTitle {
+    margin-top: -320px;
+    
+  }
+}
+@media screen and (max-width: 425px) {
+  
+  
+  .activites-intro p {
+    margin: 20px;
+  }
+  
+  .prices-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  
+    margin-top: 20px;
+  }
+  .soleil {
+    display:none;
+  }
+  .reglement ul {
+    padding: 20px;
+    
+    text-align: center;
+    
+  }
+  .reglement {
+    margin-top: 20px;
+    
+  
+    
+  }
+}
