@@ -41,7 +41,7 @@
 
 @font-face {
   font-family: 'Porky\'s';
-  src: url('../public/font/PORKYS_.TTF') format('truetype'); /* Assurez-vous que le chemin est correct et utilisez le bon format de fichier */
+  src: url('../public/font/PORKYS_.TTF') format('truetype'); 
   font-weight: normal;
   font-style: normal;
 }
