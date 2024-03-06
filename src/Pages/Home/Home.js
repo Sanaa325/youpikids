@@ -1,7 +1,7 @@
 import React from "react";
 import VideoBanner from "../../Components/VideoBanner/VideoBanner";
 import "../../Pages/Home/home.css";
-import accueilVideo from "../../Assets/testvid.mp4";
+import accueilVideo from "../../Assets/testvideo4.mp4";
 import HomeCards from "../../Components/HomeCards/HomeCards";
 import Horaires from "../../Components/Horaires/Horaires";
 import Form from "../../Components/Form/Form";

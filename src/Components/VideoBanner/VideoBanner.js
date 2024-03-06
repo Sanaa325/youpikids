@@ -4,7 +4,7 @@ import "./videobanner.css"; // Assurez-vous d'avoir un fichier de style pour vot
 const VideoBanner = ({ video, alt }) => {
   return (
     <div className="VideoBanner">
-      <video autoPlay loop muted >
+      <video autoPlay loop >
         <source src={video} type="video/mp4" />
         Votre navigateur ne prend pas en charge la balise vidéo.
       </video>
