@@ -194,8 +194,8 @@
 
 }
 
-/* Styles pour écrans jusqu'à 430 pixels de large */
-@media screen and (max-width: 430px) {
+/* Styles pour écrans jusqu'à 730 pixels de large */
+@media screen and (max-width: 730px) {
 
 
   .lil-smash-burger-section {

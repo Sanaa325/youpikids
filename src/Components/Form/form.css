@@ -216,7 +216,7 @@ textarea {
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 730px) {
     .formulaire-container {
         padding-inline: 0px;
         padding-block: 0px;
