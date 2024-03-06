@@ -1,7 +1,6 @@
 import React from "react";
 import VideoBanner from "../../Components/VideoBanner/VideoBanner";
 import "../../Pages/Home/home.css";
-import accueilVideo from "../../Assets/testvideo4.mp4";
 import HomeCards from "../../Components/HomeCards/HomeCards";
 import Horaires from "../../Components/Horaires/Horaires";
 import Form from "../../Components/Form/Form";
@@ -11,23 +10,22 @@ import accesyoupikids from "../../Assets/accesyoupikids.png";
 
 
 function Home() {
-  const isHomePage = true; 
+  const isHomePage = true;
+  const mobileVideo = "../../Assets/mobileVideo.mp4";
+  const desktopVideo = "../../Assets/ordinateurVideo.mp4";
 
   return (
     <div className="Home">
       <div>
-      {isHomePage ? (
-        <VideoBanner
-          video={accueilVideo}
-          
-        />
-      ) : null}
-      <div className="home-bannerTitle">
-        <h1>Bienvenue chez Youpi Kids</h1>
-        <p>Le parc de jeux qui fait pétiller les yeux des enfants et des plus grands</p>
-        
-        
-      </div>
+        {isHomePage ? (
+          <VideoBanner mobileVideo={mobileVideo} desktopVideo={desktopVideo} />
+        ) : null}
+        <div className="home-bannerTitle">
+          <h1>Bienvenue chez Youpi Kids</h1>
+          <p>Le parc de jeux qui fait pétiller les yeux des enfants et des plus grands</p>
+
+
+        </div>
       </div>
       <div className="activites-intro">
         <p>Plongez dans notre espace intérieur de 1000 m² dédié au divertissement familial,
@@ -79,11 +77,11 @@ function Home() {
         </ul>
       </div>
       <Banner
-          image={accesyoupikids}
-          alt="Accès Youpi Kids"
-          paddingTop="60px"
-          
-        />
+        image={accesyoupikids}
+        alt="Accès Youpi Kids"
+        paddingTop="60px"
+
+      />
 
       <Form />
 
