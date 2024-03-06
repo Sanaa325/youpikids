@@ -1,9 +1,20 @@
-import React from "react";
-import "./videobanner.css"; // Assurez-vous d'avoir un fichier de style pour votre VideoBanner
-
+import React, { useEffect, useState } from "react";
+import "./videobanner.css";
 
 const VideoBanner = ({ mobileVideo, desktopVideo, alt }) => {
-  const isMobile = window.innerWidth <= 768; // Vous pouvez ajuster la largeur de la fenêtre pour déterminer quand basculer vers la version mobile
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className="VideoBanner">

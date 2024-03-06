@@ -7,17 +7,19 @@ import Form from "../../Components/Form/Form";
 import soleil from "../../Assets/soleil.jpeg";
 import Banner from "../../Components/Banner/Banner";
 import accesyoupikids from "../../Assets/accesyoupikids.png";
+import mobileVideo from "../../Assets/mobileVideo.mp4"
+import desktopVideo from "../../Assets/ordinateurVideo.mp4"
+
 
 
 function Home() {
   const isHomePage = true;
-  const mobileVideo = "../../Assets/mobileVideo.mp4";
-  const desktopVideo = "../../Assets/ordinateurVideo.mp4";
+
 
   return (
     <div className="Home">
       <div>
-        {isHomePage ? (
+      {isHomePage ? (
           <VideoBanner mobileVideo={mobileVideo} desktopVideo={desktopVideo} />
         ) : null}
         <div className="home-bannerTitle">
