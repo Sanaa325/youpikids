@@ -3,6 +3,7 @@ import logo from "../../Assets/logo.jpeg";
 import "../Form/form.css";
 import fb from "../../Assets/fb.png";
 import insta from "../../Assets/insta.png";
+import tiktok from "../../Assets/tiktok.png";
 import { Link } from 'react-router-dom';
 
 
@@ -24,6 +25,9 @@ function Form() {
                             </a>
                             <a href="https://www.instagram.com/youpikids_sarcelles?igsh=MWZjam52cWV3YW5oaw==" target="_blank" rel="noopener noreferrer">
                                 <img src={insta} alt="Instagram" />
+                            </a>
+                            <a href="https://www.tiktok.com/@youpikids95" target="_blank" rel="noopener noreferrer">
+                                <img src={tiktok} alt="TikTok" />
                             </a>
                         </div>
                     </div>
