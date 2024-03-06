@@ -18,7 +18,7 @@ const VideoBanner = ({ mobileVideo, desktopVideo, alt }) => {
 
   return (
     <div className="VideoBanner">
-      <video autoPlay loop muted>
+      <video autoPlay loop >
         <source src={isMobile ? mobileVideo : desktopVideo} type="video/mp4" />
         Votre navigateur ne prend pas en charge la balise vidéo.
       </video>
