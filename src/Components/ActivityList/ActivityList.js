@@ -5,7 +5,7 @@ import CategoryFilter from "../CategoryFilter/CategoryFilter";
 import "./activitylist.css";
 import act1 from "../../Assets/act1.jpg";
 import act2 from "../../Assets/act2.jpeg";
-import act3 from "../../Assets/act3.jpeg";
+import act3 from "../../Assets/aact3.jpeg";
 import act4 from "../../Assets/act4.JPG";
 import act5 from "../../Assets/act5.jpg";
 import act6 from "../../Assets/act6.jpg";
