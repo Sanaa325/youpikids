@@ -58,7 +58,7 @@
 }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .MenuButton button{
   font-size: 11px;
 }

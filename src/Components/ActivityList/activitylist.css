@@ -103,7 +103,7 @@ body.modal-open {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .activity-list {
     grid-template-columns: repeat(1, 1fr);
   }

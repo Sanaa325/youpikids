@@ -9,7 +9,9 @@
   margin-left: 40px;
   margin-right: 40px;
 }
-
+.modal-open {
+  overflow: hidden;
+}
 .b-modal-personalised {
   
   background-color: white;
