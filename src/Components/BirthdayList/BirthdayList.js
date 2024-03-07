@@ -45,17 +45,14 @@ const BirthdayList = () => {
   const [selectedBirthday, setSelectedBirthday] = useState(null);
 
   const openModal = (index) => {
-    document.body.classList.add('modal-open'); // Ajoute la classe au body
     setSelectedBirthday(birthdayData[index]);
     setModalIsOpen(true);
   };
 
   const closeModal = () => {
-    document.body.classList.remove('modal-open'); // Retire la classe du body
     setModalIsOpen(false);
     setSelectedBirthday(null);
   };
-
   // Define a mapping of titles to colors
   const titleColors = {
     'YUMMY BIRTHDAY': '#8B2A79',

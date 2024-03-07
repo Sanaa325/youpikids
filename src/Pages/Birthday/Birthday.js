@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Banner from "../../Components/Banner/Banner";
-import annivimage from "../../Assets/annivimage.jpeg";
+import annivimage from "../../Assets/annivimagetest.png";
 import Horaires from "../../Components/Horaires/Horaires";
 import BirthdayList from "../../Components/BirthdayList/BirthdayList";
 import "./birthday.css"
@@ -23,9 +23,7 @@ const Birthday = () => {
           
         />
       )}
-      <div className="birthday-bannerTitle">
-        <h1>Prêt à lui offrir un anniversaire mémorable ?</h1>
-      </div>
+      
 
 
       <BirthdayList />

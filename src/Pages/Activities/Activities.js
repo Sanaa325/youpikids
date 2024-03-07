@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../Components/Banner/Banner";
-import activiteimage from "../../Assets/activiteimage.JPG";
+import activiteimage from "../../Assets/activiteimagetest.png";
 import Horaires from "../../Components/Horaires/Horaires";
 import ActivityList from "../../Components/ActivityList/ActivityList";
 import Form from "../../Components/Form/Form";
@@ -19,9 +19,7 @@ const Activities = () => {
           className="image-sombre"
         />
       )}
-      <div className="activity-bannerTitle">
-        <h1>Nous garantissons une journée animée pleine de divertissements pour tous les âges </h1>
-      </div>
+      
       
       <ActivityList />
       <Horaires />
