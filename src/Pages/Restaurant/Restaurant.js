@@ -67,44 +67,44 @@ const Restaurant = () => {
       { name: "Muffin 2", description: "Description du Muffin 2", image: menutest },
       { name: "Muffin 3", description: "Description du Muffin 3", image: menutest },
       { name: "Muffin 4", description: "Description du Muffin 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+      
     ],
     "Gateaux": [
       { name: "Gateau 1", description: "Description du Gateau 1", image: menutest },
       { name: "Gateau 2", description: "Description du Gateau 2", image: menutest },
       { name: "Gateau 3", description: "Description du Gateau 3", image: menutest },
       { name: "Gateau 4", description: "Description du Gateau 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+     
     ],
     "Boissons chaudes": [
       { name: "Boisson chaude 1", description: "Description Boisson chaude 1", image: menutest },
       { name: "Boisson chaude 2", description: "Description Boisson chaude 2", image: menutest },
       { name: "Boisson chaude 3", description: "Description Boisson chaude 3", image: menutest },
       { name: "Boisson chaude 4", description: "Description Boisson chaude 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+      
     ],
     "Signatures": [
       { name: "Signature 1", description: "Description Signature 1", image: menutest },
       { name: "Signature 2", description: "Description Signature 2", image: menutest },
       { name: "Signature 3", description: "Description Signature 3", image: menutest },
       { name: "Signature 4", description: "Description Signature 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+      
     ],
     "Boissons fraîches": [
       { name: "Boisson fraîche 1", description: "Description Boisson fraîche 1", image: menutest },
       { name: "Boisson fraîche 2", description: "Description Boisson fraîche 2", image: menutest },
       { name: "Boisson fraîche 3", description: "Description Boisson fraîche 3", image: menutest },
       { name: "Boisson fraîche 4", description: "Description Boisson fraîche 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+      
     ],
     "Confiseries": [
       { name: "Confiserie 1", description: "Description Confiserie 1", image: menutest },
       { name: "Confiserie 2", description: "Description Confiserie 2", image: menutest },
       { name: "Confiserie 3", description: "Description Confiserie 3", image: menutest },
       { name: "Confiserie 4", description: "Description Confiserie 4", image: menutest },
-      // Ajoutez d'autres éléments selon vos besoins
+      
     ],
-    // Ajoutez d'autres catégories selon vos besoins
+    
   };
 
   const menuItems = {
@@ -122,15 +122,8 @@ const Restaurant = () => {
       { name: "Sweet Potatoe Fries", image: sweetfries },
       { name: "Chili Cheese Dog", image: chilidog },
     ],
-    "Burgers": [
-      { name: "Original Cheese", image: sofrenchburger1 },
-      { name: "Smokin", image: sofrenchburger1 },
-      { name: "Chicken", image: chiliburger1 },
-      { name: "Hot Chili", image: chiliburger1 },
-      { name: "So French", image: sofrenchburger1 },
+    
 
-
-    ],
     "Boissons": [
       { name: "Sodas", image: icedtea },
       { name: "Jus de fruit", image: jusdefruit },
