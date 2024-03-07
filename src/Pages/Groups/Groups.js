@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../Components/Banner/Banner";
-import groupimage from "../../Assets/groupimage.jpg";
+import groupimage from "../../Assets/groupimagetest.png";
 import Form from "../../Components/Form/Form";
 import Horaires from "../../Components/Horaires/Horaires";
 import accesyoupikids from "../../Assets/accesyoupikids.png";
@@ -19,9 +19,7 @@ const Groups = () => {
         />
       )}
 
-      <div className="group-bannerTitle">
-        <h1>Nous nous adaptons aux groupes d'enfants </h1>
-      </div>
+      
       <div>
         
         <p className="group-text">Youpi Kids propose des tarifs réduits aux groupes à partir de 10 enfants (sur réservation).

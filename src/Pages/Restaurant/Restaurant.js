@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Banner from "../../Components/Banner/Banner";
-import restimage from "../../Assets/restimage.jpg";
-import restimg from "../../Assets/restimg.jpg";
+import restimg from "../../Assets/restimagetest.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -175,9 +174,7 @@ const Restaurant = () => {
           includeAnchor={false}
         />
       )}
-      <div className="resto-bannerTitle">
-        <h1>La petite pause qui s'impose</h1>
-      </div>
+      
 
       {/* Section Lil' Smash Burger */}
       <section>
