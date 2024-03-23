@@ -24,7 +24,6 @@
   color: #FF8B05;
   text-transform: uppercase;
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
   
 }
