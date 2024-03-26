@@ -11,7 +11,7 @@ function NavigationItem(props) {
       <Link
         to={props.to}
         style={location.pathname === props.to ? { textDecoration: "none" } : null}
-        onClick={props.onClick} // Ajoutez cette ligne
+        onClick={props.onClick} 
       >
         {props.children}
       </Link>
