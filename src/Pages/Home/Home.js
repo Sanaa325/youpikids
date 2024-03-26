@@ -7,8 +7,8 @@ import Form from "../../Components/Form/Form";
 import soleil from "../../Assets/soleil.jpeg";
 import Banner from "../../Components/Banner/Banner";
 import accesyoupikids from "../../Assets/accesyoupikids.png";
-import mobileVideo from "../../Assets/mobileVideo.mp4"
-import desktopVideo from "../../Assets/ordinateurVideo.mp4"
+import mobileVideo from "../../Assets/mobVideo.mp4"
+import desktopVideo from "../../Assets/deskVideo.mp4"
 
 
 
