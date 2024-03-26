@@ -75,19 +75,19 @@ const activities = [
   {
     title: 'Pat Patrouille ',
     image: act10,
-    description: 'Rejoins Chase, Marcus et leurs amis pour une aventure pleine de jeux, de rires et de souvenirs magiques. Veuillez noter que la présence de Pat Patrouille est sujette à disponibilité et peut varier en fonction du calendrier de programmation. ',
+    description: 'Retrouvez vos héros préférés lors de nos événements spéciaux ! Consultez notre programme des mascottes disponibles sur nos réseaux sociaux pour connaître les dates où vous pourrez rencontrer vos personnages préférés. Ne manquez pas cette opportunité de créer des souvenirs magiques avec eux !',
     category: 'De 3 à 12 ans',
   },
   {
     title: 'Reine des Neiges ',
     image: act11,
-    description: 'Préparez-vous à être émerveillés et à vivre des moments magiques avec La Reine des Neiges lors de nos événements spéciaux ! Veuillez noter que la présence de La Reine des Neiges est sujette à disponibilité et peut varier en fonction du calendrier de programmation. ',
+    description: 'Retrouvez vos héros préférés lors de nos événements spéciaux ! Consultez notre programme des mascottes disponibles sur nos réseaux sociaux pour connaître les dates où vous pourrez rencontrer vos personnages préférés. Ne manquez pas cette opportunité de créer des souvenirs magiques avec eux !',
     category: 'De 3 à 12 ans',
   },
   {
     title: 'Avengers ',
     image: act12,
-    description: "Rejoignez Iron Man, Captain America, Thor, Hulk et toute la bande lors de nos événements spéciaux pour des jeux palpitants, des défis héroïques et des moments pleins d'action. Veuillez noter que la participation à ces activités est soumise à disponibilité et peut varier en fonction du calendrier de programmation. ",
+    description: "Retrouvez vos héros préférés lors de nos événements spéciaux ! Consultez notre programme des mascottes disponibles sur nos réseaux sociaux pour connaître les dates où vous pourrez rencontrer vos personnages préférés. Ne manquez pas cette opportunité de créer des souvenirs magiques avec eux !",
     category: 'De 3 à 12 ans',
   },
 ];
