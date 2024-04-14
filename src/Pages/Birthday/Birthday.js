@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Banner from "../../Components/Banner/Banner";
 import annivimage from "../../Assets/annivimagetest.png";
+import anniv from "../../Assets/anniv.png";
 import Horaires from "../../Components/Horaires/Horaires";
 import BirthdayList from "../../Components/BirthdayList/BirthdayList";
 import "./birthday.css"
@@ -18,7 +19,7 @@ const Birthday = () => {
     <div className="birth-page">
       {isHomePage ? null : (
         <Banner
-          image={annivimage}
+          image={anniv}
           alt="Bannière de la page Anniversaires"
           
         />

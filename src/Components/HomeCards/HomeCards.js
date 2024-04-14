@@ -4,6 +4,8 @@ import "./homecards.css";
 import activitesimage from "../../Assets/activitesimage.jpeg";
 import restimage from "../../Assets/restimg.jpg";
 import annivimage from "../../Assets/annivimage.jpeg";
+import anniv from "../../Assets/anniv.png";
+
 
 function HomeCards() {
     return (
@@ -18,7 +20,7 @@ function HomeCards() {
             </div>
             <div className="card">
                 <Link to="/anniversaires" className="link">
-                    <img src={annivimage} alt="Anniversaires" />
+                    <img src={anniv} alt="Anniversaires" />
                     <div className="card-overlay">
                         <h3>Anniversaires</h3>
                     </div>

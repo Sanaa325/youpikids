@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import annivimage from "../../Assets/annivimage.jpeg";
 import anniv1 from "../../Assets/anniv1.jpg";
+import anniv from "../../Assets/anniv.png";
 import anniv2 from "../../Assets/anniv2.jpg";
 import anniv3 from "../../Assets/anniv3.JPG";
 import BirthdayCard from "../../Components/BirthdayCard/BrithdayCard";
@@ -12,25 +13,25 @@ import "./birthdaylist.css"
 const birthdayData = [
   {
     title: 'YUMMY BIRTHDAY',
-    image: anniv3,
+    image: anniv,
     description: 'Un moment gourmand ',
   },
 
   {
     title: 'YOUPI FRIDAY',
-    image: anniv1,
+    image: anniv,
     description: 'Un vendredi entre amis',
   },
 
   {
     title: 'YOUPI ANIMÉ',
-    image: anniv2,
+    image: anniv,
     description: 'Une aventure Youpi',
   },
 
   {
     title: "KING'S BIRTHDAY",
-    image: annivimage,
+    image: anniv,
     description: 'Un anniversaire de rêve',
   },
 
